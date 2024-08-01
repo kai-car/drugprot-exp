@@ -33,17 +33,17 @@ datamodule:
   num_workers: 8
 
 taskmodule:
-    # overwrite default values of the taskmodule (see taskmodule/re_text_classification_with_indices.yaml)
-    max_window: 256
-    add_type_to_marker: false
-    tokenizer_name_or_path: ${base_model_name}
-    add_candidate_relations: true
-    partition_annotation: labeled_partitions
-    collect_statistics: true
+  # overwrite default values of the taskmodule (see taskmodule/re_text_classification_with_indices.yaml)
+  max_window: 256
+  add_type_to_marker: false
+  tokenizer_name_or_path: ${base_model_name}
+  add_candidate_relations: true
+  partition_annotation: labeled_partitions
+  collect_statistics: true
 
 model:
-    # overwrite default values of the model (see model/sequence_classification_with_pooler.yaml)
-    learning_rate: 3e-5
-    task_learning_rate: 3e-5
-    model_name_or_path: ${base_model_name}
-    warmup_proportion: 0.1
+  # overwrite default values of the model (see model/sequence_classification_with_pooler.yaml)
+  learning_rate: 3e-5
+  task_learning_rate: 3e-5
+  model_name_or_path: ${base_model_name}
+  warmup_proportion: 0.1
