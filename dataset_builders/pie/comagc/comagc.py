@@ -3,11 +3,10 @@ from dataclasses import dataclass
 from typing import Any, Dict, Optional
 
 import datasets
+from pie_datasets import ArrowBasedBuilder
 from pytorch_ie import AnnotationLayer, Document, annotation_field
 from pytorch_ie.annotations import BinaryRelation, LabeledSpan, Span
 from pytorch_ie.documents import TextDocumentWithLabeledSpansAndBinaryRelations
-
-from pie_datasets import ArrowBasedBuilder
 
 logger = logging.getLogger(__name__)
 
