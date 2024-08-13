@@ -1,0 +1,6 @@
+_target_: src.utils.execute_pipeline
+input:
+  _target_: pie_datasets.DatasetDict.load_dataset
+  path: pie/biorel
+  name: default
+  revision: f9c96dae825b65b20a61369eb40320376b5574b3
