@@ -24,8 +24,8 @@ seed: 12345
 monitor_metric: metric/micro/f1/val
 
 trainer:
-  min_epochs: 3
-  max_epochs: 3
+  min_epochs: 10
+  max_epochs: 20
   # gradient_clip_val: 0.5
 
 datamodule:
