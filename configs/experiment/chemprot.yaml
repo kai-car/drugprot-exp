@@ -17,7 +17,7 @@ name: "chemprot/re_text_classification_with_indices"
 
 base_model_name: "FacebookAI/roberta-base"
 
-tags: ["dataset=drugprot", "model=sequence_classification_with_pooler"]
+tags: ["dataset=chemprot", "model=sequence_classification_with_pooler"]
 
 seed: 12345
 
