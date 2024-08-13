@@ -1,5 +1,7 @@
+# @package _global_
+
 defaults:
-  - override /dataset: biorel_base
+  - override /dataset: biorel_prepared
   - override /datamodule: default
   - override /taskmodule: re_text_classification_with_indices
   - override /model: sequence_classification_with_pooler
