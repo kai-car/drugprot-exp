@@ -20,7 +20,7 @@
 
 # Imports all configurations from the specified files (the file extension .yaml can be omitted)
 defaults:
-  - override /dataset: drugprot_prepared
+  - override /dataset: drugprot_chemprot_prepared
   - override /datamodule: default
   - override /taskmodule: re_text_classification_with_indices
   - override /model: sequence_classification_with_pooler

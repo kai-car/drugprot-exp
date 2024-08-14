@@ -1,0 +1,4 @@
+_target_: src.utils.execute_pipeline
+
+input:
+  _target_: dataset_builders.drug_chem_load.load_drug_chem_dataset
