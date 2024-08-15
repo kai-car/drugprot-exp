@@ -77,12 +77,12 @@ def load_drug_chem_dataset() -> DatasetDict:
 
     train = concatenate_datasets([drugprot["train"], chemprot["train"]])
     validation = concatenate_datasets([drugprot["validation"], chemprot["validation"]])
-    # test = concatenate_datasets([drugprot["test_background"], chemprot["test"]])
+    test = chemprot["test"]
 
     return DatasetDict(
         {
             "train": train,
-            # 'test': test,
+            "test": test,
             "validation": validation,
         }
     )
