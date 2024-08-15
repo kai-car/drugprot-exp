@@ -33,8 +33,8 @@ dataset_split: test
 
 ## enable this to predict on the first GPU with batch size 32
 pipeline:
-   device: 0
-   batch_size: 32
+  device: 0
+  batch_size: 32
 
 # predefined path that can be used as output path for the serializer
 prediction_save_dir: ${paths.save_dir}/predictions/${name}/${now:%Y-%m-%d_%H-%M-%S}
