@@ -1,0 +1,6 @@
+_target_: src.utils.execute_pipeline
+input:
+  _target_: pie_datasets.DatasetDict.load_dataset
+  path: pie/chemprot
+  name: chemprot_full_source
+  revision: 79740b5ec3d5194827808965ad0c04c18bc642af

@@ -14,3 +14,4 @@ wandb:
   group: ""
   tags: ${tags}
   job_type: ""
+  entity: kai-slt

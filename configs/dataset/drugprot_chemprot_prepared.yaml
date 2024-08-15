@@ -1,0 +1,3 @@
+defaults:
+  - drugprot_chemprot
+  - _add_sentences
